@@ -1,0 +1,20 @@
+{
+  "name": "mongoloid",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/coffee-script/bin/coffee mongoloid.coffee",
+    "test": "./node_modules/coffee-script/bin/cake test"
+  },
+  "dependencies": {
+    "coffee-script": "*",
+    "mongodb": "*",
+    "underscore": "*",
+    "kexec": "*"
+  },
+  "devDependencies" :{
+    "mocha": "*",
+    "should": "*",
+    "chai": "*"
+  }
+}
